@@ -1,4 +1,5 @@
-# Program aktivitas 2
+# Program aktivitas 2 tes
+
 from kanren.facts import Relation, facts, fact
 from kanren.core import var, run
 from kanren.goals import membero
@@ -27,3 +28,4 @@ for hobby in mary_hobbies:
 
 ann_hobbies = run(0, x, suka("ann", x))
 print("Ann: ", ann_hobbies)
+# nyoba github
